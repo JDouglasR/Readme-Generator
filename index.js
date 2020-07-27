@@ -69,10 +69,14 @@ function promptUser() {
   ]);
 }
 
+// This function runs after the prompts are answered to call the generateMarkdown function and write the READme.
+
 async function init() {
   try {
     const answers = await promptUser();
     const markDown = generateMarkdown(answers);
+    console.log(answers);
+    console.log(markDown);
 
     await writeFileAsync("README.md", markDown);
 
