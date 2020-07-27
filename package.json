@@ -1,0 +1,31 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This is a Readme generator made to build a readme from user inputs and choices.",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^7.3.2",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDouglasR/Readme-Generator.git"
+  },
+  "keywords": [
+    "[readme",
+    "promise",
+    "generator",
+    "async]"
+  ],
+  "author": "Justin Roose <justin.d.roose@gmail.com> (https://jdouglasr.github.io/Portfolio/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDouglasR/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/JDouglasR/Readme-Generator#readme"
+}
