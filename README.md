@@ -1,6 +1,6 @@
 
 ### __*README Generator*__
-![GitHub](https://img.shields.io/github/license/undefined/Readme-Generator)
+![GitHub](https://img.shields.io/github/license/JDouglasR/Readme-Generator)
 ## __License__
 MIT
 
@@ -8,7 +8,7 @@ MIT
 This project aims to create a command-line application that dynamically generates a professional README.md from a user's input.
 
 ### __Installation__
-To begine, run ```npm install``` to load required modules to your directory. Then, run ```node index.js``` to initialize the applicaiton. This will prompt you in the terminal with questions. Answer the questions and the README.md will be generated in the same parent directory as your index.js file.
+To begin, run ```npm install``` to load required modules to your directory. Then, run ```node index.js``` to initialize the applicaiton. This will prompt you in the terminal with questions. Answer the questions and the README.md will be generated in the same parent directory as your index.js file.
 
 ### __Usage__
 >[Here's](https://drive.google.com/file/d/1-BpFCYGmqRM4sL2X83lIgF27G2oZAqh8/view) a video using the application and displaying the README it produces.
