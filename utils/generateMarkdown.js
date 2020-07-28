@@ -4,8 +4,7 @@ function generateMarkdown(answers) {
   console.log(answers);
   return `
 ### __*${answers.title}*__
-https://img.shields.io/github/license/${answers.Github}/${answers.repo}
-
+![GitHub](https://img.shields.io/github/license/${answers.Github}/${answers.repo})
 ## __License__
 ${answers.license}
 
@@ -13,16 +12,16 @@ ${answers.license}
 ${answers.description}
 
 ### __Installation__
-*${answers.installation}
+${answers.installation}
 
 ### __Usage__
-*${answers.usage}
+${answers.usage}
 
 ### __Contributing__
-*${answers.contributing}
+${answers.contributing}
 
 ### __Tests__
-*${answers.tests}
+${answers.tests}
 
 ### __Questions__
 - Find me on [Github](https//github.com/${answers.github})!
