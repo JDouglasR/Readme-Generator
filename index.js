@@ -1,9 +1,13 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
+
+const OUTPUT_DIR = path.resolve(__dirname, "newReadme");
+const outputPath = path.join(OUTPUT_DIR, "README.md");
 
 // Questions/prompts that user will answer to generate the Readme.
 
@@ -78,7 +82,7 @@ async function init() {
     console.log(answers);
     console.log(markDown);
 
-    await writeFileAsync("README.md", markDown);
+    await writeFileAsync(outputPath, markDown);
 
     console.log("Successfully wrote to README.md");
   } catch(err) {
