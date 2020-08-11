@@ -1,5 +1,5 @@
 
-### __*README Generator*__
+# __*README Generator*__
 ![GitHub](https://img.shields.io/github/license/JDouglasR/Readme-Generator)
 ## __License__
 MIT
